@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvdixog7q11su"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_rvmok"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_rvmok")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+pivot_offset = Vector2(-16, 240)
+color = Color(0.517982, 0.644957, 0.442827, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 162.0
+offset_right = 1920.0
+offset_bottom = 320.0
+theme_override_font_sizes/font_size = 107
+text = "Gremlins Pinball"
+horizontal_alignment = 1
+vertical_alignment = 1
