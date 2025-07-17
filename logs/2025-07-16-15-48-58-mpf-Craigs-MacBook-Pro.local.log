@@ -1,0 +1,118 @@
+2025-07-16 15:48:58,439 : INFO : root : Loading config.
+2025-07-16 15:48:58,440 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-16 15:48:58,440 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/4b0446b065373c01774765373fc5a010.mpf_cache
+2025-07-16 15:48:58,459 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 15:48:58,460 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/86b9553ee9e8fe91c4c341498a1256c7.mpf_cache
+2025-07-16 15:48:58,460 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 15:48:58,460 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/fe908dde2db5cc7f24a22ccd0c690388.mpf_cache
+2025-07-16 15:48:58,460 : WARNING : ConfigProcessor : Config file in cache changed: /Users/craig/Documents/Pinball/Gremlins/modes/bumpers/config/bumpers.yaml
+2025-07-16 15:48:58,460 : INFO : ConfigProcessor : Loading config from file /Users/craig/Documents/Pinball/Gremlins/modes/bumpers/config/bumpers.yaml.
+2025-07-16 15:48:58,461 : INFO : ConfigProcessor : Loading config: /Users/craig/Documents/Pinball/Gremlins/modes/bumpers/config/bumpers.yaml
+2025-07-16 15:48:58,461 : INFO : ConfigProcessor : Config file cache created: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/c87d87d711c9e63e2e052ce58df60d5a.mpf_cache
+2025-07-16 15:48:58,461 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev8
+2025-07-16 15:48:58,461 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-07-16-15-48-58-mpf-Craigs-MacBook-Pro.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/craig/Documents/Pinball/Gremlins/logs/2025-07-16-15-48-58-mpf-Craigs-MacBook-Pro.local.log'}
+2025-07-16 15:48:58,461 : INFO : Machine : MPF path: /Users/craig/mpf-080/lib/python3.12/site-packages/mpf
+2025-07-16 15:48:58,461 : INFO : Machine : Machine path: /Users/craig/Documents/Pinball/Gremlins
+2025-07-16 15:48:58,461 : INFO : Machine : Platform: darwin
+2025-07-16 15:48:58,461 : INFO : Machine : Python executable location: /Users/craig/mpf-080/bin/python3.12
+2025-07-16 15:48:58,461 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-07-16 15:48:58,462 : INFO : Machine : Initializing MPF...
+2025-07-16 15:48:58,477 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,482 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,482 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,482 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,482 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,489 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.7.6-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,490 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,490 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,490 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Thu Apr 24 20:29:18 PDT 2025; root:xnu-10063.141.1.705.2~1/RELEASE_ARM64_T6000', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,490 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,490 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/craig/Documents/Pinball/Gremlins/logs/2025-07-16-15-48-58-mpf-Craigs-MacBook-Pro.local.log', 'prev_value': None, 'change': True}
+2025-07-16 15:48:58,490 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-07-16 15:48:58,495 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-07-16 15:48:58,495 : INFO : SwitchController : Found active switch: (1005, <Platform.Virtual>) <switch.s_trough_1>
+2025-07-16 15:48:58,495 : INFO : SwitchController : Found active switch: (1006, <Platform.Virtual>) <switch.s_trough_2>
+2025-07-16 15:48:58,495 : INFO : SwitchController : Found active switch: (1007, <Platform.Virtual>) <switch.s_trough_3>
+2025-07-16 15:48:58,495 : INFO : SwitchController : Found active switch: (1008, <Platform.Virtual>) <switch.s_trough_4>
+2025-07-16 15:48:58,496 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...ss \'str\'>')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...ss \'str\'>')>)>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/config_players/event_player.py", line 75, in validate_config_entry
+    config = super().validate_config_entry(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/config_players/flat_config_player.py", line 17, in validate_config_entry
+    config = self._parse_config(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 144, in _parse_config
+    return self.get_full_config(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/config_players/flat_config_player.py", line 23, in get_full_config
+    value[element] = super().get_full_config(value[element])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 216, in get_full_config
+    return self.machine.config_validator.validate_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 182, in _validate_config
+    raise self.validation_error(source, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry event_player:event_player = "base_slide" is not valid. Config attribute should be dict but is <class 'str'> Error Code: CFE-ConfigValidator-5 (https://missionpinball.org/logs)
+2025-07-16 15:48:58,497 : INFO : Machine : Starting the main run loop with active modes: []
+2025-07-16 15:48:58,497 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-07-16 15:48:58,497 : INFO : Machine : Shutting down...
+2025-07-16 15:48:58,497 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-07-16 15:48:59,500 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/config_players/event_player.py", line 75, in validate_config_entry
+    config = super().validate_config_entry(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/config_players/flat_config_player.py", line 17, in validate_config_entry
+    config = self._parse_config(settings, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 144, in _parse_config
+    return self.get_full_config(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/config_players/flat_config_player.py", line 23, in get_full_config
+    value[element] = super().get_full_config(value[element])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_player.py", line 216, in get_full_config
+    return self.machine.config_validator.validate_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 182, in _validate_config
+    raise self.validation_error(source, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry event_player:event_player = "base_slide" is not valid. Config attribute should be dict but is <class 'str'> Error Code: CFE-ConfigValidator-5 (https://missionpinball.org/logs)
+2025-07-16 15:48:59,503 : INFO : root : MPF run loop ended.

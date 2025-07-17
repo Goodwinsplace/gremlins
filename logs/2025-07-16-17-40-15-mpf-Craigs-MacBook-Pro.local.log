@@ -1,0 +1,9 @@
+2025-07-16 17:40:15,716 : INFO : root : Loading config.
+2025-07-16 17:40:15,717 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-16 17:40:15,717 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/4b0446b065373c01774765373fc5a010.mpf_cache
+2025-07-16 17:40:15,736 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 17:40:15,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/86b9553ee9e8fe91c4c341498a1256c7.mpf_cache
+2025-07-16 17:40:15,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 17:40:15,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/fe908dde2db5cc7f24a22ccd0c690388.mpf_cache
+2025-07-16 17:40:15,737 : WARNING : ConfigProcessor : Config file in cache changed: /Users/craig/Documents/Pinball/Gremlins/modes/bumpers/config/bumpers.yaml
+2025-07-16 17:40:15,737 : INFO : ConfigProcessor : Loading config from file /Users/craig/Documents/Pinball/Gremlins/modes/bumpers/config/bumpers.yaml.

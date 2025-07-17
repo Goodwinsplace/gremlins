@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://bvc45ueqds7sj"
+path="res://.godot/imported/RedGremlins.fnt-749ed89d61b039750d6441dd4edb5b2a.fontdata"
+
+[deps]
+
+source_file="res://bitmap-fonts/RedGremlins.fnt"
+dest_files=["res://.godot/imported/RedGremlins.fnt-749ed89d61b039750d6441dd4edb5b2a.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

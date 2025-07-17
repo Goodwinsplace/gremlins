@@ -1,9 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://cvdixog7q11su"]
+[gd_scene load_steps=9 format=3 uid="uid://cvdixog7q11su"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_rvmok"]
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_k4fcw"]
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_wxfjs"]
 [ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_s08gm"]
+[ext_resource type="Texture2D" uid="uid://cxb7mxystjcy6" path="res://images/gremlins_start.jpg" id="5_ofsd2"]
+[ext_resource type="Texture2D" uid="uid://6o71s480pbwr" path="res://images/gremlins_wall.png" id="6_5fw4k"]
+[ext_resource type="FontFile" uid="uid://n1a1qafh1vwp" path="res://fonts/GREMLINS.TTF" id="7_7m1h7"]
+[ext_resource type="FontFile" uid="uid://bvc45ueqds7sj" path="res://bitmap-fonts/RedGremlins.fnt" id="7_l6d54"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -35,14 +39,30 @@ text = "Gremlins Pinball"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="credits" type="Label" parent="MPFCarousel"]
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
 visible = false
-layout_mode = 0
-offset_left = -9.0
-offset_top = -6.0
-offset_right = 1887.0
-offset_bottom = 1076.0
-theme_override_font_sizes/font_size = 120
+position = Vector2(-23, -3)
+texture = ExtResource("6_5fw4k")
+centered = false
+
+[node name="logo" type="Sprite2D" parent="MPFCarousel/mpf_logo"]
+position = Vector2(963, 545)
+scale = Vector2(3.86875, 3.86875)
+texture = ExtResource("4_s08gm")
+
+[node name="press_start" type="Node2D" parent="MPFCarousel"]
+
+[node name="title_screen" type="Sprite2D" parent="MPFCarousel/press_start"]
+position = Vector2(-23, -3)
+texture = ExtResource("5_ofsd2")
+centered = false
+
+[node name="credits" type="Label" parent="MPFCarousel/press_start"]
+offset_left = 846.0
+offset_top = 710.0
+offset_right = 1717.0
+offset_bottom = 781.0
+theme_override_font_sizes/font_size = 51
 text = "SAMPLE TEXT"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -50,17 +70,33 @@ script = ExtResource("3_wxfjs")
 variable_type = 2
 variable_name = "credits_string"
 
-[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
-visible = false
-position = Vector2(940, 542)
-scale = Vector2(3.86875, 3.86875)
-texture = ExtResource("4_s08gm")
+[node name="RichTextLabel" type="RichTextLabel" parent="MPFCarousel/press_start"]
+offset_left = 792.0
+offset_top = 551.0
+offset_right = 1799.0
+offset_bottom = 706.0
+theme_override_fonts/normal_font = ExtResource("7_l6d54")
+theme_override_fonts/mono_font = ExtResource("7_l6d54")
+theme_override_fonts/italics_font = ExtResource("7_l6d54")
+theme_override_fonts/bold_italics_font = ExtResource("7_l6d54")
+theme_override_fonts/bold_font = ExtResource("7_l6d54")
+theme_override_font_sizes/bold_italics_font_size = 100
+theme_override_font_sizes/italics_font_size = 100
+theme_override_font_sizes/mono_font_size = 100
+theme_override_font_sizes/normal_font_size = 136
+theme_override_font_sizes/bold_font_size = 100
+bbcode_enabled = true
+text = "[wave]PRESS START"
 
 [node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
 visible = false
 
+[node name="brick_wall" type="Sprite2D" parent="MPFCarousel/last_scores_1p"]
+position = Vector2(-23, -3)
+texture = ExtResource("6_5fw4k")
+centered = false
+
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
-visible = false
 offset_right = 1896.0
 offset_bottom = 1079.0
 theme_override_font_sizes/font_size = 140
@@ -76,8 +112,12 @@ min_digits = 2
 [node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
 visible = false
 
+[node name="brick_wall" type="Sprite2D" parent="MPFCarousel/last_scores_2p"]
+position = Vector2(-23, -3)
+texture = ExtResource("6_5fw4k")
+centered = false
+
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-visible = false
 offset_right = 1896.0
 offset_bottom = 531.0
 theme_override_font_sizes/font_size = 140
@@ -91,7 +131,6 @@ comma_separate = true
 min_digits = 2
 
 [node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-visible = false
 offset_top = 548.0
 offset_right = 1896.0
 offset_bottom = 1079.0
@@ -107,6 +146,11 @@ min_digits = 2
 
 [node name="last_scores_3p" type="Node2D" parent="MPFCarousel"]
 visible = false
+
+[node name="brick_wall" type="Sprite2D" parent="MPFCarousel/last_scores_3p"]
+position = Vector2(-23, -3)
+texture = ExtResource("6_5fw4k")
+centered = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3p"]
 offset_right = 1896.0
@@ -125,7 +169,7 @@ min_digits = 2
 offset_left = -6.0
 offset_top = 300.0
 offset_right = 1890.0
-offset_bottom = 678.0
+offset_bottom = 618.0
 theme_override_font_sizes/font_size = 140
 text = "123,456"
 horizontal_alignment = 1
@@ -140,7 +184,7 @@ min_digits = 2
 offset_left = -16.0
 offset_top = 695.0
 offset_right = 1880.0
-offset_bottom = 1088.0
+offset_bottom = 1028.0
 theme_override_font_sizes/font_size = 140
 text = "123,456"
 horizontal_alignment = 1
@@ -152,6 +196,12 @@ comma_separate = true
 min_digits = 2
 
 [node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="brick_wall" type="Sprite2D" parent="MPFCarousel/last_scores_4p"]
+position = Vector2(-23, -3)
+texture = ExtResource("6_5fw4k")
+centered = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 offset_right = 938.0
@@ -171,14 +221,14 @@ offset_left = 955.0
 offset_top = 3.0
 offset_right = 1893.0
 offset_bottom = 381.0
+theme_override_fonts/font = ExtResource("7_7m1h7")
 theme_override_font_sizes/font_size = 140
-text = "123,456"
+text = "123456"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("3_wxfjs")
 variable_type = 2
 variable_name = "player2_score"
-comma_separate = true
 min_digits = 2
 
 [node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4p"]

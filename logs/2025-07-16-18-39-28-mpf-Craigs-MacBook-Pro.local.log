@@ -1,0 +1,20 @@
+2025-07-16 18:39:28,530 : INFO : root : Loading config.
+2025-07-16 18:39:28,531 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-16 18:39:28,531 : WARNING : ConfigProcessor : Config file in cache changed: /Users/craig/Documents/Pinball/Gremlins/config/config.yaml
+2025-07-16 18:39:28,531 : INFO : ConfigProcessor : Loading config from file /Users/craig/mpf-080/lib/python3.12/site-packages/mpf/mpfconfig.yaml.
+2025-07-16 18:39:28,536 : INFO : ConfigProcessor : Loading config: /Users/craig/mpf-080/lib/python3.12/site-packages/mpf/mpfconfig.yaml
+2025-07-16 18:39:28,536 : INFO : ConfigProcessor : Loading config from file /Users/craig/Documents/Pinball/Gremlins/config/config.yaml.
+2025-07-16 18:39:28,537 : INFO : ConfigProcessor : Loading config: /Users/craig/Documents/Pinball/Gremlins/config/config.yaml
+2025-07-16 18:39:28,537 : INFO : ConfigProcessor : Loading config: /Users/craig/Documents/Pinball/Gremlins/config/config_ball_devices.yaml
+2025-07-16 18:39:28,537 : INFO : ConfigProcessor : Loading config: /Users/craig/Documents/Pinball/Gremlins/config/config_coils.yaml
+2025-07-16 18:39:28,538 : INFO : ConfigProcessor : Loading config: /Users/craig/Documents/Pinball/Gremlins/config/config_switches.yaml
+2025-07-16 18:39:28,538 : INFO : ConfigProcessor : Config file cache created: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/4b0446b065373c01774765373fc5a010.mpf_cache
+2025-07-16 18:39:28,555 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 18:39:28,556 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/86b9553ee9e8fe91c4c341498a1256c7.mpf_cache
+2025-07-16 18:39:28,556 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 18:39:28,556 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/fe908dde2db5cc7f24a22ccd0c690388.mpf_cache
+2025-07-16 18:39:28,556 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/c87d87d711c9e63e2e052ce58df60d5a.mpf_cache
+2025-07-16 18:39:28,556 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/2285102ea814fec0736640417091917b.mpf_cache
+2025-07-16 18:39:28,556 : INFO : ConfigProcessor : Loading config from file /Users/craig/Documents/Pinball/Gremlins/modes/gizmo_multi/config/gizmo_multi.yaml.
+2025-07-16 18:39:28,557 : INFO : ConfigProcessor : Loading config: /Users/craig/Documents/Pinball/Gremlins/modes/gizmo_multi/config/gizmo_multi.yaml
+2025-07-16 18:39:28,557 : INFO : ConfigProcessor : Config file cache created: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/ada559df2791dadfb934315a18966373.mpf_cache

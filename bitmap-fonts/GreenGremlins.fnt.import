@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://c1jbx3a08olak"
+path="res://.godot/imported/GreenGremlins.fnt-a76ec267ec886be45ff679017d81625c.fontdata"
+
+[deps]
+
+source_file="res://bitmap-fonts/GreenGremlins.fnt"
+dest_files=["res://.godot/imported/GreenGremlins.fnt-a76ec267ec886be45ff679017d81625c.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

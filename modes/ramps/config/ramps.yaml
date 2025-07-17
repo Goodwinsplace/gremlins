@@ -1,0 +1,20 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_ramps
+  stop_events: stop_mode_ramps
+  priority: 300
+
+shots:
+  ramp_1:
+    switch: s_ramp_1
+  ramp_2:
+    switch: s_ramp_2
+
+shot_groups:
+  ramp:
+    shots: ramp_1, ramp_2
+
+variable_player:
+  rampe_hit:
+    score: 500

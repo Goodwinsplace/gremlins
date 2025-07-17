@@ -1,0 +1,89 @@
+2025-07-16 18:18:06,265 : INFO : root : Loading config.
+2025-07-16 18:18:06,266 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-16 18:18:06,266 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/4b0446b065373c01774765373fc5a010.mpf_cache
+2025-07-16 18:18:06,285 : WARNING : ConfigProcessor : Config file in cache changed: /Users/craig/Documents/Pinball/Gremlins/modes/attract/config/attract.yaml
+2025-07-16 18:18:06,285 : INFO : ConfigProcessor : Loading config from file /Users/craig/mpf-080/lib/python3.12/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-07-16 18:18:06,285 : INFO : ConfigProcessor : Loading config: /Users/craig/mpf-080/lib/python3.12/site-packages/mpf/modes/attract/config/attract.yaml
+2025-07-16 18:18:06,286 : INFO : ConfigProcessor : Loading config from file /Users/craig/Documents/Pinball/Gremlins/modes/attract/config/attract.yaml.
+2025-07-16 18:18:06,286 : INFO : ConfigProcessor : Loading config: /Users/craig/Documents/Pinball/Gremlins/modes/attract/config/attract.yaml
+2025-07-16 18:18:06,287 : INFO : ConfigProcessor : Config file cache created: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 18:18:06,287 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/86b9553ee9e8fe91c4c341498a1256c7.mpf_cache
+2025-07-16 18:18:06,287 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/8c6758dff4d969b46729a501e1f9b5a2.mpf_cache
+2025-07-16 18:18:06,287 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/fe908dde2db5cc7f24a22ccd0c690388.mpf_cache
+2025-07-16 18:18:06,287 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/c87d87d711c9e63e2e052ce58df60d5a.mpf_cache
+2025-07-16 18:18:06,287 : INFO : ConfigProcessor : Loading config from cache: /var/folders/pz/vf5_w96n7hl70j30jzrp_64r0000gp/T/2285102ea814fec0736640417091917b.mpf_cache
+2025-07-16 18:18:06,288 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev8
+2025-07-16 18:18:06,288 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-07-16-18-18-06-mpf-Craigs-MacBook-Pro.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/craig/Documents/Pinball/Gremlins/logs/2025-07-16-18-18-06-mpf-Craigs-MacBook-Pro.local.log'}
+2025-07-16 18:18:06,288 : INFO : Machine : MPF path: /Users/craig/mpf-080/lib/python3.12/site-packages/mpf
+2025-07-16 18:18:06,288 : INFO : Machine : Machine path: /Users/craig/Documents/Pinball/Gremlins
+2025-07-16 18:18:06,288 : INFO : Machine : Platform: darwin
+2025-07-16 18:18:06,288 : INFO : Machine : Python executable location: /Users/craig/mpf-080/bin/python3.12
+2025-07-16 18:18:06,288 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2025-07-16 18:18:06,288 : INFO : Machine : Initializing MPF...
+2025-07-16 18:18:06,305 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,310 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,310 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,310 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,310 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,317 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.7.6-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,317 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,317 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.6.0', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,317 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.6.0: Thu Apr 24 20:29:18 PDT 2025; root:xnu-10063.141.1.705.2~1/RELEASE_ARM64_T6000', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,317 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,317 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/craig/Documents/Pinball/Gremlins/logs/2025-07-16-18-18-06-mpf-Craigs-MacBook-Pro.local.log', 'prev_value': None, 'change': True}
+2025-07-16 18:18:06,317 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-07-16 18:18:06,322 : ERROR : ConfigValidator : Your config contains a value for the setting "mode:attract:timers:attract_carousel_timer:press_start", but this is not a valid setting name.
+2025-07-16 18:18:06,322 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at /Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at /Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:attract:timers:attract_carousel_timer:press_start", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-07-16 18:18:06,324 : INFO : Machine : Starting the main run loop with active modes: []
+2025-07-16 18:18:06,324 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-07-16 18:18:06,324 : INFO : Machine : Shutting down...
+2025-07-16 18:18:06,324 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-07-16 18:18:07,326 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "/Users/craig/mpf-080/lib/python3.12/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:attract:timers:attract_carousel_timer:press_start", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-07-16 18:18:07,329 : INFO : root : MPF run loop ended.

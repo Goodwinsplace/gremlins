@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cddbdlcnq037l"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="1_6igau"]
+
+[node name="WonderfulDay" type="VideoStreamPlayer"]
+script = ExtResource("1_6igau")
